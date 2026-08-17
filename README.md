@@ -12,8 +12,9 @@ YOLOv8-based detection and classification of drones into 4 categories (Fixed-win
 Custom 2D Kalman filter (built from scratch in NumPy) that smooths noisy detections and tracks the drone through missed frames.
 - **69.1% reduction in trajectory jitter** on real drone footage
 
-### 3. Model Benchmarking *(in progress)*
-Comparative evaluation of YOLOv8 model variants (speed vs. accuracy tradeoffs).
+### 3. [Model Benchmarking](./project3_benchmark/)
+Controlled comparison of YOLOv8n vs YOLOv8s for drone detection.
+- **YOLOv8n: 1.7x faster inference, 3.6x smaller** with comparable accuracy (mAP@50 within 1%)
 
 ## Vision
 
